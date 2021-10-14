@@ -1,24 +1,22 @@
-# Technical description
+# My Data Protection world
+Free Data Processing Agreement
+Open source privacy notice design patterns.
 
-## Folder structure
+The My Data Protection World Data Processing Agreement is an open source project by https://www.mydataprotection.world, based on the Juro Privacy Notice Project created by https://juro.com and https://stefaniapassera.com/.
 
-- *privacy* - contains scripts, styles and layout for part of the main privacy notice page.
-- *modal* - contains scripts, styles and layout for the pop-up privacy modal.
-- *res* - contains js, styles and other resources required by both the modal or privacy page.
-- *libs* - same as res, but 3rd party.
+The Juro Privacy Notice has become acknowledged best practice in clean information design.Check it out here: https://juro.com/#privacy-popup
 
-## Modal
+The design patterns were released under an open source project at https://github.com/juro-privacy
 
-Simply put the content of modal.html on your pages where you want the modal to appear. Include the content of modal.js in your script file and content of modal.css to your styles file. Resources from the *res* folder also must be presented on all the pages where modal appears. Please note that having **#privacy-popup** in the URL will open popup automatically after opening the page (if you include modal.js, of course).
+Now, you can use the design patterns adapted to the My Data Protection World Data Processing Agreement (DPA) on your own service's DPA for free! <b>You just need to include a link back to our site with this wording: "This Data Processing Agreement was built based on an open source design from https://juro.com & https://stefaniapassera.com/. Get these patterns free at github.com/juro-privacy. The adapted DPA design is available based on an open source design from https://www.mydataprotection.world. Get these adapted designs free are github.com/mdpw-dpa."
 
-Besides this please
-- replace **/policy.html** with the link to your privacy page.
-- adjust the text of the modal so it reflects your company.
+The DPA design patterns offered include:
 
-## Privacy
+- A 'DPA summary' modal
+- The full layered Data Processing Agreement
 
-Privacy is the full privacy page (not the modal). It's a piece of layout that contains privacy-related information, patterns and icons. Simply put the content of privacy.html on your privacy page. Include the content of privacy.js in your script file and the content of modal.css in your styles file. Resources from the *res* folder also must be presented on the privacy page.
+Important:
 
-## Demo
-
-The demo page contains both privacy and modal layout as well as the simplest page structure. To see a proper demo page you need to open with a local server since because of the browser's security settings you won't see SVG icons if sprite.svg is stored locally. But with no local server, you will see everything else properly except the icons. To open the popup simply add **#privacy-popup** to the URL.
+- Users of the DPA design patterns expressly agree that they <b>do not consider the patterns legal advice in any way</b>.
+- The wording of the legal text included was originally created for Juro and adapted for My Data Protection World and you <b>must customise</b> the design patterns and wording to your own Agreement requirements.
+- The Juro privacy notice uses icons from streamlineicons.com - these icons are <b>not</b> open source and cannot be used <b>for this project</b>. Please make sure you only use the icons from <b>this</b> project.
